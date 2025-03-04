@@ -1,0 +1,12 @@
+box model css
+margin, border, padding, content
+
+HTML
+● Qué es el desarrollo web y los términos asociados al mismo
+● Qué herramientas se utilizan para trabajar y escribir código
+● Qué es HTML y cuáles son los elementos principales que lo conforman
+
+CSS 
+● Cómo es la sintaxis correcta para escribir CSS
+● Cuáles son las propiedades básicas de CSS
+● Qué es el modelo de cajas y por qué es importante aprenderlo.

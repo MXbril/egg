@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1e7325e1dd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <header id="encabezado">
+            <a href="index.html"><i class="fa-solid fa-shield-heart"></i></a>
+            <nav class="navbar">
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2 class="cambio">Acerca de mi</h2>
+                    <p class="parrafo1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                    <p class="parrafo2">
+                        ¡Hola a todos! Soy maximo, y estoy encantado de tener la oportunidad de presentarme ante ustedes hoy.
+                        Disfruto dedicar mi tiempo libre a los deportes y arte.
+                        Mis objetivos a futuro son trabajar de programador web y formar mi propia empresa.
+                    </p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/perfil-1.png" alt="imagen personal">
+                </div>
+            </section>
+
+            <section class="seccion-2">
+                <img src="img/espacio-1.png" alt="imagen de carrusel">
+            </section>
+        </main>
+        
+        <div class="trabajo-primario">
+            <h3>CONOCIMIENTOS</h3>
+            <div class="trabajo">
+                <div class="imagenes-vida">
+                    <img src="img/musica-1.jpg" alt="iamagen de guitarrista">
+                    <h4>LA GUITARRA</h4>
+                    <p>
+                        Además de tocar la guitarra, también tengo experiencia en canto. Me gusta explorar diferentes estilos musicales y experimentar con mi voz para encontrar nuevas formas de transmitir emociones a través de la música.
+                    </p>
+                    <div class="leer">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Leer mas...</a></li>
+                            </ul>
+                        </nav>
+                    </div>          
+                </div>
+                <div class="imagenes-vida">
+                    <img src="img/computo-1.jpg" alt="imagen de computo">
+                    <h4>LA TECNOLOGIA</h4>
+                    <p>
+                        He dedicado tiempo a tomar cursos de informática para expandir mis habilidades en esta área. Me fascina explorar cómo la tecnología puede mejorar nuestras vidas y estoy constantemente aprendiendo sobre las últimas tendencias y avances en el campo.
+                    </p>
+                    <div class="leer">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Leer mas...</a></li>
+                            </ul>
+                        </nav>
+                    </div>                       
+                </div>
+                <div class="imagenes-vida">
+                    <img src="img/arte-1.jpg" alt="imagen de artista">
+                    <h4>EL ARTE</h4>
+                    <p>
+                        Mi pasión por el arte va más allá del dibujo; también disfruto creando historias y dando vida a personajes únicos. Desde cuentos cortos hasta elaboradas tramas, me encanta sumergirme en el proceso creativo y ver cómo cobran vida mis creaciones en la página.
+                    </p> 
+                    <div class="leer">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Leer mas...</a></li>
+                            </ul>
+                        </nav>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div data-contenedor class="formulario-principal">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" 
+                            name="email" 
+                            type="email" 
+                            placeholder="eltiburoncin@gmail.com" 
+                            required 
+                            />
+                </div>
+
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+        
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+
+            </form>
+        </div>
+
+        <Footer>
+            <h3>Redes Sociales</h3>
+            <div class="estatico">
+                <a href="index.html"><i class="fa-solid fa-shield-heart" style="color: aqua;"></i></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
+                    <li><a href="https://twitter.com/" target="_blank">twitter</a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank">facebook</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+                </ul>
+            </nav>
+        </Footer>
+    </div>
+    
+</body>
+</html>

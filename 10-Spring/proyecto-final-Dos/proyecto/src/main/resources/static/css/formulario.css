@@ -1,0 +1,124 @@
+.navBar {
+    background-color: #004d99 !important; /* Color azul eléctrico */
+}
+
+.elementosNav {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    color: #fff;
+    font-weight: 700;
+}
+
+.elementos {
+    margin-right: 50px;
+}
+
+.containerImg {
+    width: 20%;
+}
+
+.logo {
+    width: 50%;
+    margin: auto;
+}
+
+.mensajeExito {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    background-color: #28a745 !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mensajeError {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    background-color: #dc3545 !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formulario {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #004d99;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f8f9fa;
+}
+
+.formulario input {
+    border: 1px solid #004d99;
+    border-radius: 5px;
+}
+
+.formulario h3 {
+    text-align: center;
+    color: #004d99;
+    font-weight: bold;
+}
+
+.divVolver {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.botonVolver {
+    width: 70%;
+    background-color: #004d99;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botonVolver:hover {
+    background-color: #003366;
+}
+
+.botones {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #004d99;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.botones:hover {
+    background-color: #003366;
+}
+
+.botones:active {
+    box-shadow: none;
+    background-color: #002244;
+}
+
+.containerFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #004d99;
+    color: #fff;
+    padding: 20px;
+    border-top: 3px solid #003366;
+}
+
+.containerFooter a {
+    color: #ffc107; /* Amarillo eléctrico */
+    text-decoration: none;
+}
+
+.containerFooter a:hover {
+    color: #fff;
+}

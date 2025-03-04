@@ -1,0 +1,421 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+ol,
+ul {
+    list-style: none; /*con esto quito los estilos de la lista*/
+}
+
+a {
+    color: white;
+    text-decoration: none; /*con esto anulo la decoracion por defecto del texto*/
+    
+    }
+
+
+header {
+    background-color: #593622;
+    display: flex; /*Establece un contenedor como elemento flexible.*/
+    align-items: center;/*los elementos están centrados en el eje transversal*/
+    justify-content: space-between;/*los artículos están distribuidos uniformemente en la línea; El primer elemento está en la línea de inicio, el último elemento en la línea de final.*/
+    padding-right: 0.5em;
+    width: 100%;
+    
+}
+
+header a i {
+    color: white;
+    font-size: 3em;/*permite controlar el tamaño del texto*/
+    padding: 0.4em;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+  }
+
+header nav ul {
+    display: flex;
+    gap: 1.1em;/* Se utiliza para establecer el espacio entre los elementos hijos de un contenedor que utiliza Flexbox.*/
+}
+
+header nav ul li a {
+    color: white;
+
+}
+
+nav ul.menu li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+    }
+/*Main*/
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.cambio {
+    color: #593622;
+}
+
+#seccion-principal {
+    background-color: #E4C8B3;
+}
+
+#seccion-principal .seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    text-align: justify;
+    flex-wrap: wrap;
+    padding-top: 6em;
+}
+.seccion-1 .acerca-de {
+    width: 430px;
+}
+
+
+.acerca-imagen img {
+    border-radius: 10em;
+    padding: 2em;   
+}
+
+.seccion-2 img {
+    width: 100%;
+}
+/*contenedor div*/
+
+.trabajo-primario {
+    background-color: #E4C8B3;
+}
+.trabajo-primario h3 {
+    margin: 0;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    color: #593622;
+}
+.trabajo h4 {
+    color: #593622;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.trabajo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.trabajo .imagenes-vida img {
+    display: flex;
+    width: 300px;
+    padding: 1em;
+    border-radius: 2em;
+    
+}
+.trabajo p {
+    display: flex;
+    text-align: justify;
+    width: 300px;
+    padding: 1em;
+    margin: 0;
+    padding-bottom: 0;
+    
+}
+
+.leer nav ul a {
+    color: rgb(156, 102, 2);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+/*Formulario*/
+
+[data-contenedor] {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-principal {
+    background-color: #f8f1ed;
+    text-align: center;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    padding: 50px;
+}
+
+.formulario-principal h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 1em;
+}
+
+.formulario {
+    background-color: #f8f1ed;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 60%;
+    padding: 50px;
+    margin:  0;
+  }
+/*Campo de formulario*/
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"]
+   {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #593622;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+
+
+
+/*.trabajo {
+    display: flex;
+    justify-content: flex-start;   
+    align-items: baseline;
+    padding: 2em;
+    flex-wrap: wrap;
+    background-color: #E4C8B3;
+    
+}
+
+.trabajo img, .trabajo p {
+    width: 300px;
+    margin: 1em;
+    border-radius: 1em;   
+}
+
+.trabajo p {
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #260B01;
+}*/
+
+footer {
+    background-color: #260B01;
+    padding: 1em;
+}
+
+footer h3 {
+    color: #e0bea0;
+    display: flex;
+    
+}
+
+footer h3, footer nav ul li a {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+footer nav  ul {
+    padding: 0;  
+}
+
+.estatico {
+    position: fixed;
+    bottom: 22px;
+    right: 39px;
+    font-size: 2em;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    }
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 786px) {
+    body {
+        font-size: 14px;
+      }
+
+    header {
+        background-color: #4400ff;
+    }
+
+    #seccion-principal .seccion-1 {
+        display: flex;
+        
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #encabezado ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #885dff;
+        text-align: center;
+        top: 66px;
+        left: 100%;
+        transition: all 0.5s;
+    }
+
+    #check:checked ~ ul {
+        padding: 0;
+        left: 0%;
+        display: block;
+    }
+
+    #encabezado nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    #encabezado nav ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked ~ .checkbtn {
+        color: #00ff37;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        width: 100%;
+    }
+
+    .acerca-imagen img {
+        padding: 0;
+    }
+
+    .trabajo .imagenes-vida img {
+        padding: 0;
+    }
+
+    footer {
+        background-color: #4400ff;
+    }
+  }
+
+
+    @media only screen and (min-width: 786px) {
+        .form-header {
+            padding: 70px;
+          }
+        
+          .form-row {
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 20px;
+          }
+          .form-row input[type="text"],
+          .form-row input[type="email"]
+           {
+            width: 250px;
+            height: initial;
+          }
+          .form-row label {
+            text-align: right;
+            width: 120px;
+            margin-top: 7px;
+            padding-right: 20px;
+          }
+      
+          .form-row textarea {
+            width:250px;
+        }
+      
+        
+          .form-row button {
+              margin-left: 140px;
+          }
+    
+  }
+    

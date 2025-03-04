@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de cajas</title>
+    <link rel="stylesheet" href="box-styles.css">
+</head>
+<body>
+    <h1>Modelos de caja</h1>
+
+    <!-- explicación de elementos de bloque e inline -->
+    <section>
+        <h2>Elementos de bloque</h2>
+        <p>
+            Los elementos de bloque, como los encabezados y los párrafos, ocupan todo el ancho disponible dentro de su contenedor y generan una nueva línea después de ellos.
+        </p>
+    </section>
+
+    <section>
+        <h2>Elementos en línea</h2>
+        <p>
+            Los elementos en línea, como <em>&lt;em&gt;</em> y <strong>&lt;strong&gt;</strong>, solo ocupan el espacio necesario para su contenido y se alinean horizontalmente con otros elementos en línea.
+        </p>
+    </section>
+    
+    <!-- ejemplo de bloque y enline combinados -->
+    <div>
+        Este es un elemento de bloque. Dentro de él, puedes tener elementos en línea como este 
+        <span>&lt;span&gt;</span>
+    </div>
+
+    <section>
+        <h2>Visualización de modelos de cajas</h2>
+        <div class="modelo-caja">
+            contenido
+            <span>Padding</span>
+            <span>Border</span>
+            <span>Margin</span>
+        </div>
+        <div class="modelo-caja">
+            contenido
+            <span>Padding</span>
+            <span>Border</span>
+            <span>Margin</span>
+        </div>
+    </section>
+</body>
+</html>

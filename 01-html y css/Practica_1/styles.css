@@ -1,0 +1,32 @@
+body {
+    background-color: aquamarine;
+}
+
+.practica {
+    color: purple;
+    margin: 10px;
+    padding: 0px 10px 10px 10px;
+}
+
+p {
+    background-color: brown;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;/*Establece el tamaño del texto*/
+}
+
+ol li {
+    color: darkgreen;
+}
+
+ul li {
+    color: mediumblue;
+}
+
+.resultado {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 50px 200px 0px 0px;
+}
+
+/*Contenedor generico*/
